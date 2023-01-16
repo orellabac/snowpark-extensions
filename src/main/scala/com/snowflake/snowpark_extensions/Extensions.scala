@@ -543,7 +543,7 @@ object functions {
     builtin("reverse")(c)
 
   /**
-   * Wrapper for Snowflake built-in isnull function. Gets a boolean depending if value is NULL or not.
+   * Alias for snowpark is_null function. Gets a boolean depending if value is NULL or not.
    * @param c Column to qnalize if it is null value.
    * @return Column object.
    */
