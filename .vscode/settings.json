@@ -51,8 +51,8 @@
         "driver": "Snowflake",
         "name": "mobilize",
         "account": "mobilize",
-        "username": "U2FsdGVkX182D2dy1+5qszfhHlicmQMxeY/rInI1azs=",
-        "password": "U2FsdGVkX19PbgxqimQcdv6eoOfbGqu/UFUQCDIc+jg=",
+        "username": "U2FsdGVkX1/2+Ml+pmGeCnzsLC92rMHV/ZBOUIwx16c=",
+        "password": "U2FsdGVkX18dKAH1DIt+jn8anDtCu5+iq4MI1FePNMc=",
         "database": "SNOWPARK_ANALYSIS",
         "warehouse": "load_wh",
         "schema": "public"
@@ -60,6 +60,6 @@
 ],
  "sqltools.defaultConnId": 2353,
  "files.watcherExclude": {
-  "**/target": true
- }
+    "**/target": true
+}
 }
