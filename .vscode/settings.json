@@ -43,23 +43,19 @@
  "csv-preview.lineNumbers": "ordinal",
  "[python]": {
   "editor.tabSize": 1
- },
- "sqltools.connections": [
+},
+"sqltools.connections": [
     {
         "connId": 2353,
         "role": "ACCOUNTADMIN",
         "driver": "Snowflake",
         "name": "mobilize",
         "account": "mobilize",
-        "username": "U2FsdGVkX182D2dy1+5qszfhHlicmQMxeY/rInI1azs=",
-        "password": "U2FsdGVkX19PbgxqimQcdv6eoOfbGqu/UFUQCDIc+jg=",
+        "username": "U2FsdGVkX19NW9h8kdOPtfTYTd6Iq89c30wk1erbNMA=",
+        "password": "U2FsdGVkX19kPrO5qh9A9kvC4ueHdl+g45XCOZTs/6g=",
         "database": "SNOWPARK_ANALYSIS",
         "warehouse": "load_wh",
         "schema": "public"
     }
-],
- "sqltools.defaultConnId": 2353,
- "files.watcherExclude": {
-  "**/target": true
- }
+]
 }

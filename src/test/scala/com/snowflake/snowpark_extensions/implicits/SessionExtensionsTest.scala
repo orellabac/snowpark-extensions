@@ -4,6 +4,8 @@ package com.snowflake.snowpark_extensions.implicits
 import com.snowflake.snowpark_extensions.implicits.Snowpark._
 import com.snowflake.snowpark_extensions.testutils.Serializer.df2Seq
 import org.scalatest.{FlatSpec, Matchers}
+import com.snowflake.snowpark_extensions.testutils.SessionInitializer
+import com.snowflake.snowpark.Session
 
 class SessionExtensionsTest extends FlatSpec with Matchers {
   behavior of "SessionExtensions class"
@@ -12,6 +14,11 @@ class SessionExtensionsTest extends FlatSpec with Matchers {
   //   val str = SessionExtensionsSnowpark.test_time()
   //   str should startWith ("Time taken")
   // }
+
+  "appName" should "set the querytag" in {
+    val session = Session.builder.from_snowsql().appName("app1").create
+    session.ge
+  }
 
   "catalog" should "match spark catalog" in {
     // +----+--------+
